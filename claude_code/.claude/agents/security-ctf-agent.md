@@ -1,7 +1,7 @@
 ---
 name: security-ctf-agent
 description: Use this agent when you need to perform security testing, CTF (Capture The Flag) challenges, or any cybersecurity-related tasks.
-tools: mcp__sandbox__execute_code, mcp__sandbox__list_sessions, mcp__sandbox__close_session, Glob, Grep, Read, TodoWrite
+tools: mcp__sandbox__execute_code, mcp__sandbox__list_sessions, mcp__sandbox__close_session, Task, EnterPlanMode, ExitPlanMode, TodoWrite
 model: inherit
 color: purple
 ---

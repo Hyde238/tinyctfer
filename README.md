@@ -22,7 +22,7 @@
 3. 指定CTF题目地址和工作目录，启动：
 
    ```bash
-   uv run --env-file .env main.py --ctf http://fe18cdc6-2916-439e-8bce-74e9a2ef7563.node5.buuoj.cn:81 --workspace workspace
+   uv run --env-file .env tinyctfer.py --ctf http://fe18cdc6-2916-439e-8bce-74e9a2ef7563.node5.buuoj.cn:81 --workspace workspace
    ```
 
 ​	测试题目是：https://buuoj.cn/challenges#BUU%20XXE%20COURSE%201

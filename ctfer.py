@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import docker
 from docker.models.containers import Container
+from docker.errors import ImageNotFound
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
@@ -21,8 +22,13 @@ class Ctfer:
         self.ports = {
             f"{vnc_port}":"5901",
         }
-
         self.docker_client = docker.DockerClient()
+        self.container = None
+        try:
+            self.docker_client.images.get(self.image)
+        except ImageNotFound:
+            print(f"[-] Docker image '{self.image}' not found. Please pull it first.")
+            exit(1)
         self.container:Container = self.docker_client.containers.run(
             image=self.image,
             volumes=self.volumes,
@@ -33,4 +39,5 @@ class Ctfer:
         )
 
     def __del__(self):
-        self.container.stop(timeout=5)
+        if  self.container:
+            self.container.stop(timeout=5)

